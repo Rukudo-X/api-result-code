@@ -1,0 +1,23 @@
+{
+    "name": "rukudou/api-result-code",
+    "description": "api result code",
+    "authors": [
+        {
+            "name": "谢成洲",
+            "email": "547274138@qq.com"
+        }
+    ],
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8|^5.0|^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rukudou\\ApiResultCode\\": "src/"
+        }
+    }
+}
